@@ -1,0 +1,120 @@
+<core:View height="100%" 
+    xmlns:core="sap.ui.core" 
+    xmlns:l="sap.ui.layout" 
+    xmlns:f="sap.ui.layout.form" 
+    xmlns="sap.m" controllerName="ffbl.training.view.detail">
+    <Page title="Product Detail">
+        <content>
+            <ObjectHeader title="{selectedItem>/Name}" number="{ parts:[{path:'selectedItem>/Price'},{path:'selectedItem>/CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }" numberUnit="{selectedItem>/CurrencyCode}">
+                <statuses>
+                    <ObjectStatus text="{selectedItem>/Status}" state="{ path: 'selectedItem>/Status', formatter: 'ffbl.training.utils.Formatter.status' }" />
+                </statuses>
+                <attributes>
+                    <ObjectAttribute text="{selectedItem>/WeightMeasure} {selectedItem>/WeightUnit}" />
+                    <ObjectAttribute text="{selectedItem>/Width} x {selectedItem>/Depth} x {selectedItem>/Height} {selectedItem>/DimUnit}" />
+                    <ObjectAttribute text="{selectedItem>/Description}" />
+
+                </attributes>
+            </ObjectHeader>
+            <IconTabBar id="idIconTabBarMulti" class="sapUiResponsiveContentPadding">
+                <items>
+                    <IconTabFilter icon="sap-icon://hint">
+                        <f:Form >
+                            <f:layout>
+                                <f:ResponsiveGridLayout  />
+                            </f:layout>
+                            <f:formContainers>
+                                <f:FormContainer>
+                                    <f:formElements>
+                                        <f:FormElement label="Name">
+                                            <f:fields>
+                                                <Text text="{detailData>/Details/Name}" />
+                                            </f:fields>
+                                        </f:FormElement>
+                                        <f:FormElement label="Price">
+                                            <f:fields>
+                                                <Text text="{detailData>/Details/Price}" />
+                                            </f:fields>
+                                        </f:FormElement>
+                                        <f:FormElement label="Status">
+                                            <f:fields>
+                                                <Text text="{detailData>/Details/Status}" />
+                                            </f:fields>
+                                        </f:FormElement>
+                                        <f:FormElement label="Measurements">
+                                            <f:fields>
+                                                <Text text="{detailData>/Details/WeightMeasure} {detailData>/Details/WeightUnit}" />
+                                            </f:fields>
+                                        </f:FormElement>
+                                        <f:FormElement label="Date Of Sale">
+                                            <f:fields>
+                                                <Text text="{ parts: [{ path : 'detailData>/Details/DateOfSale'},{ path : 'detailData>/Details/Time'}] , formatter: 'ffbl.training.utils.Formatter.dateTime'}" />
+                                            </f:fields>
+                                        </f:FormElement>
+                                    </f:formElements>
+                                </f:FormContainer>
+                            </f:formContainers>
+                        </f:Form>
+                    </IconTabFilter>
+                    <IconTabFilter icon="sap-icon://attachment" count="3">
+                        <Text text="Attachments go here ..." />
+                    </IconTabFilter>
+                    <IconTabFilter icon="sap-icon://notes">
+                        <List items="{detailData>/Notes}">                            <!--items="{/EntryCollection}"-->
+                            <FeedListItem sender="{detailData>Author}" icon="{detailData>StatusAuthorPicUrl}" senderPress="onPress" iconPress="onPress" iconDensityAware="false" info="{detailData>Type}" timestamp="{detailData>Date}" text="{detailData>Text}" convertLinksToAnchorTags="All" actions="{path: 'detailData>Actions', templateShareable: false}">
+                                <FeedListItemAction text="{detailData>Text}" icon="{detailData>Icon}" key="{detailData>Key}" press="onActionPressed" />
+                            </FeedListItem>
+                        </List>
+                    </IconTabFilter>
+                    <IconTabFilter icon="sap-icon://group">
+                        <Text text="People content goes here ..." />
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+            <Table itemPress="onListItemPress" inset="false" items="{ path: 'detailData>/LineItems' }" mode="SingleSelectMaster">
+                <headerToolbar>
+                    <Toolbar>
+                        <content>
+                            <Title text="Line Items" level="H2"/>
+                        </content>
+                    </Toolbar>
+                </headerToolbar>
+                <columns>
+                    <Column >
+                        <Text text="Name" />
+                    </Column>
+                    <Column minScreenWidth="Tablet" demandPopin="true">
+                        <Text text="Supplier" />
+                    </Column>
+                    <Column minScreenWidth="Desktop" demandPopin="true" hAlign="End">
+                        <Text text="Dimensions" />
+                    </Column>
+                    <Column minScreenWidth="Desktop" demandPopin="true" hAlign="Center">
+                        <Text text="Weight" />
+                    </Column>
+                    <Column hAlign="End">
+                        <Text text="Price" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem type="Navigation">
+                        <cells>
+                            <ObjectIdentifier title="{detailData>Name}" text="{detailData>ProductId}"/>
+                            <Text text="{detailData>SupplierName}" />
+                            <Text text="{detailData>Width} x {detailData>Depth} x {detailData>Height} {detailData>DimUnit}" />
+                            <ObjectNumber number="{detailData>WeightMeasure}" unit="{detailData>WeightUnit}" />
+                            <ObjectNumber number="{ parts:[{path:'detailData>Price'},{path:'detailData>CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }" unit="{detailData>CurrencyCode}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+        <footer>
+            <Toolbar>
+                <ToolbarSpacer/>
+                <Button text="Accept" type="Accept" press="onAccept" />
+                <Button text="Reject" type="Reject" press="onReject" />
+            </Toolbar>
+        </footer>
+    </Page>
+</core:View>

@@ -1,0 +1,20 @@
+<core:View height="100%" 
+    xmlns:core="sap.ui.core" 
+    xmlns:l="sap.ui.layout" 
+    xmlns:f="sap.ui.layout.form" 
+    xmlns="sap.m" controllerName="ffbl.training.view.item">
+    <Page title="List Item Details" showNavButton="true" navButtonPress="onBack">
+        <content>
+            <ObjectHeader title="{selectedListItemData>/Name}" number="{ parts:[{path:'selectedListItemData>/Price'},{path:'selectedListItemData>/CurrencyCode'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: false} }" numberUnit="{selectedListItemData>/CurrencyCode}">
+                <statuses>
+                    <ObjectStatus text="{selectedListItemData>/Status}" state="{ path: 'selectedListItemData>/Status', formatter: 'ffbl.training.utils.Formatter.status' }" />
+                </statuses>
+                <attributes>
+                    <ObjectAttribute text="{selectedListItemData>/WeightMeasure} {selectedListItemData>/WeightUnit}" />
+                    <ObjectAttribute text="{selectedListItemData>/Width} x {selectedListItemData>/Depth} x {selectedListItemData>/Height} {selectedListItemData>/DimUnit}" />
+                    <ObjectAttribute text="{selectedListItemData>/Description}" />
+                </attributes>
+            </ObjectHeader>
+        </content>
+    </Page>
+</core:View>

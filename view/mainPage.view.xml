@@ -1,0 +1,31 @@
+<mvc:View height="100%" 
+  xmlns:l="sap.ui.layout" 
+  xmlns:f="sap.ui.layout.form" 
+  xmlns:core="sap.ui.core" 
+  xmlns:mvc="sap.ui.core.mvc" controllerName="ffbl.training.view.mainPage" 
+  xmlns="sap.m">
+  <Page title="Products">
+    <content>
+        <List 
+         mode="SingleSelectMaster" itemPress="onPressList"
+         items="{ path: 'listData>/ProductCollection' }"> 
+          <items>
+            <ObjectListItem title="{listData>Name}" type="Active" 
+             number="{ parts:[{path:'listData>Price'},{path:'listData>CurrencyCode'}], type: 'sap.ui.model.type.Currency',	formatOptions: {showMeasure: false} }" numberUnit="{listData>CurrencyCode}">
+              <firstStatus>
+                <ObjectStatus text="{listData>Status}" state="{ path: 'listData>Status', formatter: 'ffbl.training.utils.Formatter.status' }" />
+              </firstStatus>
+              <attributes>
+                <ObjectAttribute text="{listData>WeightMeasure} {listData>WeightUnit}" />
+                <ObjectAttribute text="{listData>Width} x {listData>Depth} x {listData>Height} {listData>DimUnit}" />
+              </attributes>
+            </ObjectListItem>
+          </items>
+        </List>
+    </content>
+    <footer>
+      <Toolbar>
+      </Toolbar>
+    </footer>
+  </Page>
+</mvc:View>

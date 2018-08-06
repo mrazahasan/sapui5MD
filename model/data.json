@@ -1,0 +1,354 @@
+{
+    "ProductCollection": [
+        {
+            "ProductId": "HT-1000",
+            "Category": "Laptops",
+            "MainCategory": "Computer Systems",
+            "TaxTarifCode": "1",
+            "SupplierName": "Very Best Screens",
+            "WeightMeasure": 4.2,
+            "WeightUnit": "KG",
+            "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+            "Name": "Notebook Basic 15",
+            "DateOfSale": "2017-03-26",
+            "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+            "Status": "Not Available",
+            "Quantity": 10,
+            "UoM": "PC",
+            "CurrencyCode": "EUR",
+            "Price": 956,
+            "Width": 30,
+            "Depth": 18,
+            "Height": 3,
+            "DimUnit": "cm",
+            "ProductDetails": {
+                "ProductId": "HT-1000",
+                "Notes": [
+                    {
+                        "Author": "Alexandrina Victoria",
+                        "AuthorPicUrl": "sap-icon://account",
+                        "Type": "Request",
+                        "Date": "March 03 2013",
+                        "Actions": [
+                            {
+                                "Text": "Delete",
+                                "Icon": "sap-icon://delete",
+                                "Key": "delete"
+                            },
+                            {
+                                "Text": "Share",
+                                "Icon": "sap-icon://share-2",
+                                "Key": "share"
+                            },
+                            {
+                                "Text": "Edit",
+                                "Icon": "sap-icon://edit",
+                                "Key": "edit"
+                            }
+                        ],
+                        "Text": "Lorem <strong>ipsum dolor sit amet</strong>, <em>consetetur sadipscing elitr</em>, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, <a href='http://www.sap.com'>sed diam voluptua</a>. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod <strong>tempor invidunt ut labore et dolore magna</strong> aliquyam erat, sed diam voluptua. <em>At vero eos et accusam et justo</em> duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seddiamnonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <u>sed diam nonumy eirmod tempor invidunt ut labore</u> et dolore magna aliquyam erat, sed diam voluptua. <strong>At vero eos et accusam</strong> et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod <a href='//www.sap.com'>tempor invidunt</a> ut labore et dolore magna aliquyam erat, sed diam voluptua. <em>At vero eos et accusam</em> et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+                    },
+                    {
+                        "Author": "George Washington",
+                        "AuthorPicUrl": "sap-icon://account",
+                        "Type": "Reply",
+                        "Date": "March 04 2013",
+                        "Text": "Lorem ipsum dolor sit <a href='http://www.sap.com'>amet</a>, consetetur sadipscing elitr, <em>sed diam</em> nonumy <strong>eirmod tempor</strong> invidunt ut labore"
+                    }
+                ],
+                "LineItems": [
+                    {
+                        "ItemNumber": "10002010",
+                        "MainCategory": "Computer Systems",
+                        "TaxTarifCode": "1",
+                        "SupplierName": "Very Best Screens",
+                        "WeightMeasure": 4.2,
+                        "WeightUnit": "KG",
+                        "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                        "Name": "Notebook Basic 1",
+                        "DateOfSale": "2017-03-26",
+                        "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+                        "Status": "Success",
+                        "Quantity": 10,
+                        "UoM": "PC",
+                        "CurrencyCode": "EUR",
+                        "Price": 956,
+                        "Width": 30,
+                        "Depth": 18,
+                        "Height": 3,
+                        "DimUnit": "cm"
+                    },
+                    {
+                        "ItemNumber": "10002011",
+                        "MainCategory": "Computer Systems",
+                        "TaxTarifCode": "1",
+                        "SupplierName": "Very Best Screens",
+                        "WeightMeasure": 4.2,
+                        "WeightUnit": "KG",
+                        "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                        "Name": "Notebook Basic 2",
+                        "DateOfSale": "2017-03-26",
+                        "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+                        "Status": "Success",
+                        "Quantity": 10,
+                        "UoM": "PC",
+                        "CurrencyCode": "EUR",
+                        "Price": 956,
+                        "Width": 30,
+                        "Depth": 18,
+                        "Height": 3,
+                        "DimUnit": "cm"
+                    },
+                    {
+                        "ItemNumber": "10002310",
+                        "MainCategory": "Computer Systems",
+                        "TaxTarifCode": "1",
+                        "SupplierName": "Very Best Screens",
+                        "WeightMeasure": 4.2,
+                        "WeightUnit": "KG",
+                        "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                        "Name": "Notebook Basic 3",
+                        "DateOfSale": "2017-03-26",
+                        "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+                        "Status": "Success",
+                        "Quantity": 10,
+                        "UoM": "PC",
+                        "CurrencyCode": "EUR",
+                        "Price": 956,
+                        "Width": 30,
+                        "Depth": 18,
+                        "Height": 3,
+                        "DimUnit": "cm"
+                    },
+                    {
+                        "ItemNumber": "10302310",
+                        "MainCategory": "Computer Systems",
+                        "TaxTarifCode": "1",
+                        "SupplierName": "Very Best Screens",
+                        "WeightMeasure": 4.2,
+                        "WeightUnit": "KG",
+                        "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                        "Name": "Notebook Basic 4",
+                        "DateOfSale": "2017-03-26",
+                        "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+                        "Status": "Success",
+                        "Quantity": 10,
+                        "UoM": "PC",
+                        "CurrencyCode": "EUR",
+                        "Price": 956,
+                        "Width": 30,
+                        "Depth": 18,
+                        "Height": 3,
+                        "DimUnit": "cm"
+                    }
+                ],
+                "Details": {
+                    "Category": "Laptops",
+                    "MainCategory": "Computer Systems",
+                    "TaxTarifCode": "1",
+                    "SupplierName": "Very Best Screens",
+                    "WeightMeasure": 4.2,
+                    "WeightUnit": "KG",
+                    "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                    "Name": "Notebook Basic 5",
+                    "DateOfSale": "2017-03-26",
+                    "Time": "19:30:22",
+                    "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+                    "Status": "Success",
+                    "Quantity": 10,
+                    "UoM": "PC",
+                    "CurrencyCode": "EUR",
+                    "Price": 956,
+                    "Width": 30,
+                    "Depth": 18,
+                    "Height": 3,
+                    "DimUnit": "cm"
+                },
+                "Attachments": [
+                    {
+                        "AttachmentName": "Training Doc.jpg",
+                        "AttachmentMIMEType": "image/jpg",
+                        "AttachmentSize": 3000,
+                        "AttachmentContent": "",
+                        "AttachmentURI": "https://cdn2.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/3/m/3me42pa-1.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "ProductId": "HT-1001",
+            "Category": "Laptops",
+            "MainCategory": "Computer Systems",
+            "TaxTarifCode": "1",
+            "SupplierName": "Very Best Screens",
+            "WeightMeasure": 4.5,
+            "WeightUnit": "KG",
+            "Description": "Notebook Basic 17 with 2,80 GHz quad core, 17\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+            "Name": "Notebook Basic 17",
+            "DateOfSale": "2017-04-17",
+            "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1001.jpg",
+            "Status": "Available",
+            "Quantity": 20,
+            "UoM": "PC",
+            "CurrencyCode": "EUR",
+            "Price": 1249,
+            "Width": 29,
+            "Depth": 17,
+            "Height": 3.1,
+            "DimUnit": "cm",
+            "ProductDetails": {
+                "ProductId": "HT-1000",
+                "Notes": [
+                    {
+                        "Author": "Alexandrina Victoria",
+                        "AuthorPicUrl": "sap-icon://account",
+                        "Type": "Request",
+                        "Date": "March 05 2013",
+                        "Text": "Lorem ipsum dolor sit amet, <u>consetetur sadipscing elitr</u>, sed diam nonumy eirmod tempor <strong>invidunt ut labore et dolore magna</strong> aliquyam erat",
+                        "Actions": [
+                            {
+                                "Text": "Delete",
+                                "Icon": "sap-icon://delete",
+                                "Key": "delete"
+                            },
+                            {
+                                "Text": "Share",
+                                "Icon": "sap-icon://share-2",
+                                "Key": "share"
+                            },
+                            {
+                                "Text": "Edit",
+                                "Icon": "sap-icon://edit",
+                                "Key": "edit"
+                            }
+                        ]
+                    },
+                    {
+                        "Author": "George Washington",
+                        "AuthorPicUrl": "sap-icon://account",
+                        "Type": "Rejection",
+                        "Date": "March 07 2013",
+                        "Text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, www.sap.com sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                    }
+                ],
+                "LineItems": [
+                    {
+                        "ItemNumber": "20002310",
+                        "MainCategory": "Computer Systems",
+                        "TaxTarifCode": "1",
+                        "SupplierName": "Very Best Screens",
+                        "WeightMeasure": 4.2,
+                        "WeightUnit": "KG",
+                        "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                        "Name": "Notebook Basic 15",
+                        "DateOfSale": "2017-03-26",
+                        "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+                        "Status": "Success",
+                        "Quantity": 10,
+                        "UoM": "PC",
+                        "CurrencyCode": "EUR",
+                        "Price": 956,
+                        "Width": 30,
+                        "Depth": 18,
+                        "Height": 3,
+                        "DimUnit": "cm"
+                    },
+                    {
+                        "ItemNumber": "20002210",
+                        "MainCategory": "Computer Systems",
+                        "TaxTarifCode": "1",
+                        "SupplierName": "Very Best Screens",
+                        "WeightMeasure": 4.2,
+                        "WeightUnit": "KG",
+                        "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                        "Name": "Notebook Basic 15",
+                        "DateOfSale": "2017-03-26",
+                        "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+                        "Status": "Success",
+                        "Quantity": 10,
+                        "UoM": "PC",
+                        "CurrencyCode": "EUR",
+                        "Price": 956,
+                        "Width": 30,
+                        "Depth": 18,
+                        "Height": 3,
+                        "DimUnit": "cm"
+                    },
+                    {
+                        "ItemNumber": "20001310",
+                        "MainCategory": "Computer Systems",
+                        "TaxTarifCode": "1",
+                        "SupplierName": "Very Best Screens",
+                        "WeightMeasure": 4.2,
+                        "WeightUnit": "KG",
+                        "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                        "Name": "Notebook Basic 15",
+                        "DateOfSale": "2017-03-26",
+                        "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+                        "Status": "Success",
+                        "Quantity": 10,
+                        "UoM": "PC",
+                        "CurrencyCode": "EUR",
+                        "Price": 956,
+                        "Width": 30,
+                        "Depth": 18,
+                        "Height": 3,
+                        "DimUnit": "cm"
+                    },
+                    {
+                        "ItemNumber": "20002340",
+                        "MainCategory": "Computer Systems",
+                        "TaxTarifCode": "1",
+                        "SupplierName": "Very Best Screens",
+                        "WeightMeasure": 4.2,
+                        "WeightUnit": "KG",
+                        "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                        "Name": "Notebook Basic 15",
+                        "DateOfSale": "2017-03-26",
+                        "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
+                        "Status": "Success",
+                        "Quantity": 10,
+                        "UoM": "PC",
+                        "CurrencyCode": "EUR",
+                        "Price": 956,
+                        "Width": 30,
+                        "Depth": 18,
+                        "Height": 3,
+                        "DimUnit": "cm"
+                    }
+                ],
+                "Details": {
+                    "Category": "Laptops",
+                    "MainCategory": "Computer Systems",
+                    "TaxTarifCode": "1",
+                    "SupplierName": "Very Best Screens",
+                    "WeightMeasure": 4.5,
+                    "WeightUnit": "KG",
+                    "Description": "Notebook Basic 17 with 2,80 GHz quad core, 17\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+                    "Name": "Notebook Basic 17",
+                    "DateOfSale": "2017-04-17",
+                    "Time": "23:30:22",
+                    "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1001.jpg",
+                    "Status": "Success",
+                    "Quantity": 20,
+                    "UoM": "PC",
+                    "CurrencyCode": "EUR",
+                    "Price": 1249,
+                    "Width": 29,
+                    "Depth": 17,
+                    "Height": 3.1,
+                    "DimUnit": "cm"
+                },
+                "Attachments": [
+                    {
+                        "AttachmentName": "Training Doc.jpg",
+                        "AttachmentMIMEType": "image/jpg",
+                        "AttachmentSize": 3000,
+                        "AttachmentContent": "",
+                        "AttachmentURI": "https://cdn2.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/3/m/3me42pa-1.jpg"
+                    }
+                ]
+            }
+        }
+    ]
+}
