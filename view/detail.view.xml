@@ -105,7 +105,7 @@
         <footer>
             <Toolbar>
                 <ToolbarSpacer/>
-                <Button text="{= ${selectedItem>/Status} === 'Inactive' ? 'Activate' : 'Deactivate' }" type="Accept" />
+                <Button text="{= ${selectedItem>/Status} === 'Inactive' ? 'Activate' : 'Deactivate' }" type="{= ${selectedItem>/Status} === 'Inactive' ? 'Accept' : 'Reject' }" />
             </Toolbar>
         </footer>
     </Page>
