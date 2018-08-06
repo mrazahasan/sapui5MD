@@ -19,7 +19,7 @@
             <IconTabBar id="idIconTabBarMulti" class="sapUiResponsiveContentPadding">
                 <items>
                     <IconTabFilter icon="sap-icon://hint">
-                        <form:SimpleForm id   = "formLayoutId">
+                        <form:SimpleForm id   = "formLayoutId" title="Information">
                             <form:content>
 
                                 <Label text = "Member ID" />
@@ -39,13 +39,13 @@
                     </IconTabFilter>
 
                     <IconTabFilter icon="sap-icon://lead">
-                        <form:SimpleForm id   = "formLayoutIdFinance">
+                        <form:SimpleForm id   = "formLayoutIdFinance" title="Dues">
                             <form:content>
                                 <Label text = "Annual Membership Fee" />
                                 <Text  text = "{detailData>/Finance/Annual}" />
-                                <Label text = "Registration Fee" />
+                                <Label text = "Admission Fee" />
                                 <Text  text = "{detailData>/Finance/RegistrationFee}" />
-                                <Label text = "Examination Fee" />
+                                <Label text = "Annual Practice Fee" />
                                 <Text  text = "{detailData>/Finance/ExamFee}" />
                             </form:content>
                         </form:SimpleForm>
@@ -55,6 +55,11 @@
 
                         <Table id="itemTable" items="{detailData>/History}" headerText="Employment History">
                             <columns>
+                                <Column hAlign="Left" demandPopin="true" minScreenWidth="Medium">
+                                    <header>
+                                        <Label text="Company Code" width="100%"/>
+                                    </header>
+                                </Column>
                                 <Column hAlign="Left">
                                     <header>
                                         <Label text="Company Name" width="100%"/>
@@ -67,16 +72,23 @@
                                 </Column>
                                 <Column hAlign="Left" demandPopin="true" minScreenWidth="Medium">
                                     <header>
-                                        <Label text="Experience" width="100%"/>
+                                        <Label text="Start Date" width="100%"/>
+                                    </header>
+                                </Column>
+                                <Column hAlign="Left" demandPopin="true" minScreenWidth="Medium">
+                                    <header>
+                                        <Label text="End Date" width="100%"/>
                                     </header>
                                 </Column>
                             </columns>
                             <ColumnListItem>
                                 <cells>
+                                    <Text text = "{detailData>CompnayCode}"/>
                                     <ObjectIdentifier title="{detailData>Companyname}"/>
 
                                     <Text text = "{detailData>Position}"/>
-                                    <Text text = "{detailData>Experience}"/>
+                                    <Text text = "{detailData>StartDate}"/>
+                                    <Text text = "{detailData>EndDate}"/>
                                 </cells>
                             </ColumnListItem>
                         </Table>
@@ -93,7 +105,7 @@
         <footer>
             <Toolbar>
                 <ToolbarSpacer/>
-                <Button text="{= ${selectedItem>/Status} === 'Inactive' ? 'Activate' : 'Deactivate' }" type="{= ${selectedItem>/Status} === 'Inactive' ? 'Accept' : 'Reject' }" />
+                <Button text="{= ${selectedItem>/Status} === 'Inactive' ? 'Activate' : 'Deactivate' }" type="Accept" />
             </Toolbar>
         </footer>
     </Page>

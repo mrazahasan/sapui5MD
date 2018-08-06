@@ -163,30 +163,35 @@
                     "Depth": 18,
                     "Height": 3,
                     "DimUnit": "cm",
-                    "Gender":"Male",
-                    "Address":"Defence",
-                    "Cell":"03007654321",
-                    "Email":"Ali@tallymarksconsulting.com",
-                    "MemberID":"02"
+                    "Gender": "Male",
+                    "Address": "Defence",
+                    "Cell": "03007654321",
+                    "Email": "Ali@Habib.com",
+                    "MemberID": "20000182"
                 },
-                "Finance":{
-                    "ExamFee":"3000",
-                    "RegistrationFee":"15000",
-                    "Annual":"50000"
+                "Finance": {
+                    "ExamFee": "25,000 (UnPaid)",
+                    "RegistrationFee": "1,000 (Paid)",
+                    "Annual": "20,000 (Paid)"
                 },
-                "History":[
+                "History": [
                     {
-                        "Companyname":"Tally Marks Consulting",
-                        "Position":"Head of Finance",
-                        "Experience":"1 Year(s)"
+                        "CompnayCode": "50001258",
+                        "Companyname": "Dawood Associates",
+                        "Position": "Chief Financial Officer",
+                        "StartDate": "Jan 01, 2010",
+                        "EndDate": "Aug 31, 2014",
+                        "Experience": "6 Month(s)"
                     },
                     {
-                        "Companyname":"Abacus",
-                        "Position":"Finance Manager",
-                        "Experience":"2 Year(s)"
+                        "CompnayCode": "50004876",
+                        "Companyname": "A. G. Habib & Co.",
+                        "Position": "Chartered Accountant",
+                        "StartDate": "Sep 01, 2014",
+                        "EndDate": "",
+                        "Experience": "6 Month(s)"
                     }
                 ],
-
                 "Attachments": [
                     {
                         "AttachmentName": "Training Doc.jpg",
@@ -361,32 +366,41 @@
                     "Depth": 17,
                     "Height": 3.1,
                     "DimUnit": "cm",
-                    "Gender":"Male",
-                    "Address":"Gulshan",
-                    "Cell":"03001234567",
-                    "Email":"sikander@tallymarksconsulting.com",
-                    "MemberID":"01"
+                    "Gender": "Male",
+                    "Address": "Gulshan",
+                    "Cell": "03001234567",
+                    "Email": "sikander@Ferguson.com",
+                    "MemberID": "20000321"
                 },
-                "Finance":{
-                    "ExamFee":"4000",
-                    "RegistrationFee":"20000",
-                    "Annual":"80000"
+                "Finance": {
+                    "ExamFee": "25,000 (Paid)",
+                    "RegistrationFee": "1,000 (Paid)",
+                    "Annual": "20,000 (Paid)"
                 },
-                "History":[
+                "History": [
                     {
-                        "Companyname":"Tally Marks Consulting",
-                        "Position":"Accounts Manager",
-                        "Experience":"1 Year(s)"
+                        "CompnayCode": "50006548",
+                        "Companyname": "Abbas Karjatwala & Co.",
+                        "Position": "Chief Financial Officer",
+                        "StartDate": "Feb 02, 2011",
+                        "EndDate": "Mar 31, 2012",
+                        "Experience": "6 Month(s)"
                     },
                     {
-                        "Companyname":"Web Pedia Technologies",
-                        "Position":"Junior Accounts Manager",
-                        "Experience":"3  Year(s)"
+                        "CompnayCode": "50005289",
+                        "Companyname": "Baker Tilly Mehmood Idrees Qamar",
+                        "Position": "Chartered Accountant",
+                        "StartDate": "Apr 01,2012",
+                        "EndDate": "Dec 31, 2015",
+                        "Experience": "3  Year(s)"
                     },
                     {
-                        "Companyname":"Zauq Group",
-                        "Position":"Account Officer",
-                        "Experience":"6 Month(s)"
+                        "CompnayCode": "50009291",
+                        "Companyname": "A. F. Ferguson & Co.",
+                        "Position": "Chartered Accountant",
+                        "StartDate": "Jan 01, 2016",
+                        "EndDate": "",
+                        "Experience": "1 Year(s)"
                     }
                 ],
                 "Attachments": [
