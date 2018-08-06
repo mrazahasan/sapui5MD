@@ -6,18 +6,18 @@
             "MainCategory": "Computer Systems",
             "TaxTarifCode": "1",
             "SupplierName": "Very Best Screens",
-            "WeightMeasure": 4.2,
+            "WeightMeasure": "Finance",
             "WeightUnit": "KG",
             "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
-            "Name": "Notebook Basic 15",
+            "Name": "Ali Arsilan",
             "DateOfSale": "2017-03-26",
             "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
-            "Status": "Not Available",
+            "Status": "Inactive",
             "Quantity": 10,
             "UoM": "PC",
             "CurrencyCode": "EUR",
-            "Price": 956,
-            "Width": 30,
+            "Price": "Premium",
+            "Width": "Aug 15, 2016",
             "Depth": 18,
             "Height": 3,
             "DimUnit": "cm",
@@ -150,7 +150,7 @@
                     "WeightMeasure": 4.2,
                     "WeightUnit": "KG",
                     "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
-                    "Name": "Notebook Basic 5",
+                    "Name": "Ali Arsilan",
                     "DateOfSale": "2017-03-26",
                     "Time": "19:30:22",
                     "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
@@ -162,8 +162,31 @@
                     "Width": 30,
                     "Depth": 18,
                     "Height": 3,
-                    "DimUnit": "cm"
+                    "DimUnit": "cm",
+                    "Gender":"Male",
+                    "Address":"Defence",
+                    "Cell":"03007654321",
+                    "Email":"Ali@tallymarksconsulting.com",
+                    "MemberID":"02"
                 },
+                "Finance":{
+                    "ExamFee":"3000",
+                    "RegistrationFee":"15000",
+                    "Annual":"50000"
+                },
+                "History":[
+                    {
+                        "Companyname":"Tally Marks Consulting",
+                        "Position":"Head of Finance",
+                        "Experience":"1 Year(s)"
+                    },
+                    {
+                        "Companyname":"Abacus",
+                        "Position":"Finance Manager",
+                        "Experience":"2 Year(s)"
+                    }
+                ],
+
                 "Attachments": [
                     {
                         "AttachmentName": "Training Doc.jpg",
@@ -181,18 +204,18 @@
             "MainCategory": "Computer Systems",
             "TaxTarifCode": "1",
             "SupplierName": "Very Best Screens",
-            "WeightMeasure": 4.5,
+            "WeightMeasure": "Accounts",
             "WeightUnit": "KG",
             "Description": "Notebook Basic 17 with 2,80 GHz quad core, 17\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
-            "Name": "Notebook Basic 17",
+            "Name": "Sikander",
             "DateOfSale": "2017-04-17",
             "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1001.jpg",
-            "Status": "Available",
+            "Status": "Active",
             "Quantity": 20,
             "UoM": "PC",
             "CurrencyCode": "EUR",
-            "Price": 1249,
-            "Width": 29,
+            "Price": "Gold",
+            "Width": "Aug 8, 2016",
             "Depth": 17,
             "Height": 3.1,
             "DimUnit": "cm",
@@ -325,7 +348,7 @@
                     "WeightMeasure": 4.5,
                     "WeightUnit": "KG",
                     "Description": "Notebook Basic 17 with 2,80 GHz quad core, 17\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
-                    "Name": "Notebook Basic 17",
+                    "Name": "Sikander",
                     "DateOfSale": "2017-04-17",
                     "Time": "23:30:22",
                     "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1001.jpg",
@@ -337,8 +360,35 @@
                     "Width": 29,
                     "Depth": 17,
                     "Height": 3.1,
-                    "DimUnit": "cm"
+                    "DimUnit": "cm",
+                    "Gender":"Male",
+                    "Address":"Gulshan",
+                    "Cell":"03001234567",
+                    "Email":"sikander@tallymarksconsulting.com",
+                    "MemberID":"01"
                 },
+                "Finance":{
+                    "ExamFee":"4000",
+                    "RegistrationFee":"20000",
+                    "Annual":"80000"
+                },
+                "History":[
+                    {
+                        "Companyname":"Tally Marks Consulting",
+                        "Position":"Accounts Manager",
+                        "Experience":"1 Year(s)"
+                    },
+                    {
+                        "Companyname":"Web Pedia Technologies",
+                        "Position":"Junior Accounts Manager",
+                        "Experience":"3  Year(s)"
+                    },
+                    {
+                        "Companyname":"Zauq Group",
+                        "Position":"Account Officer",
+                        "Experience":"6 Month(s)"
+                    }
+                ],
                 "Attachments": [
                     {
                         "AttachmentName": "Training Doc.jpg",

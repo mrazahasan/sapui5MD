@@ -5,7 +5,7 @@ ffbl.training.utils.Formatter = (function () {
   return {
     status: function (sStatus) {
 
-      return sStatus == "Available" ? "Success" : "Warning";
+      return sStatus == "Active" ? "Success" : "Warning";
     },
     dateTime: function (sDate,stime) {
       var timeArray= stime.split(":");

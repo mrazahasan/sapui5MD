@@ -4,20 +4,21 @@
   xmlns:core="sap.ui.core" 
   xmlns:mvc="sap.ui.core.mvc" controllerName="ffbl.training.view.mainPage" 
   xmlns="sap.m">
-  <Page title="Products">
+  <Page title="Members">
     <content>
         <List 
          mode="SingleSelectMaster" itemPress="onPressList"
          items="{ path: 'listData>/ProductCollection' }"> 
           <items>
             <ObjectListItem title="{listData>Name}" type="Active" 
-             number="{ parts:[{path:'listData>Price'},{path:'listData>CurrencyCode'}], type: 'sap.ui.model.type.Currency',	formatOptions: {showMeasure: false} }" numberUnit="{listData>CurrencyCode}">
+             number="{listData>Price}">
               <firstStatus>
-                <ObjectStatus text="{listData>Status}" state="{ path: 'listData>Status', formatter: 'ffbl.training.utils.Formatter.status' }" />
+                <ObjectStatus text="{listData>Status}" 
+                state="{ path: 'listData>Status', formatter: 'ffbl.training.utils.Formatter.status' }" />
               </firstStatus>
               <attributes>
-                <ObjectAttribute text="{listData>WeightMeasure} {listData>WeightUnit}" />
-                <ObjectAttribute text="{listData>Width} x {listData>Depth} x {listData>Height} {listData>DimUnit}" />
+                <ObjectAttribute text="{listData>WeightMeasure}" />
+                <ObjectAttribute text="{listData>Width}" />
               </attributes>
             </ObjectListItem>
           </items>
