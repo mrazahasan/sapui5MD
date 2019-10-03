@@ -6,17 +6,17 @@
             "MainCategory": "Computer Systems",
             "TaxTarifCode": "1",
             "SupplierName": "Very Best Screens",
-            "WeightMeasure": "Finance",
+            "WeightMeasure": "Registered On:",
             "WeightUnit": "KG",
             "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
-            "Name": "Ali Arsilan",
+            "Name": "Ali Javed",
             "DateOfSale": "2017-03-26",
             "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
             "Status": "Inactive",
             "Quantity": 10,
             "UoM": "PC",
             "CurrencyCode": "EUR",
-            "Price": "Premium",
+            "Price": "Grade 2",
             "Width": "Aug 15, 2016",
             "Depth": 18,
             "Height": 3,
@@ -150,7 +150,7 @@
                     "WeightMeasure": 4.2,
                     "WeightUnit": "KG",
                     "Description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
-                    "Name": "Ali Arsilan",
+                    "Name": "Ali Javed",
                     "DateOfSale": "2017-03-26",
                     "Time": "19:30:22",
                     "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1000.jpg",
@@ -164,29 +164,29 @@
                     "Height": 3,
                     "DimUnit": "cm",
                     "Gender": "Male",
-                    "Address": "Defence",
+                    "Address": "DHA, Islamabad",
                     "Cell": "03007654321",
-                    "Email": "Ali@Habib.com",
-                    "MemberID": "20000182"
+                    "Email": "Javed.Butt@gmail.com",
+                    "StudentID": "20000182"
                 },
                 "Finance": {
-                    "ExamFee": "25,000 (UnPaid)",
-                    "RegistrationFee": "1,000 (Paid)",
-                    "Annual": "20,000 (Paid)"
+                    "ExamFee": "500 (UnPaid)",
+                    "RegistrationFee": "8000 (Paid)",
+                    "Annual": "10,000 (Paid)"
                 },
                 "History": [
                     {
-                        "CompnayCode": "50001258",
-                        "Companyname": "Dawood Associates",
-                        "Position": "Chief Financial Officer",
+                        "CompnayCode": "Play Group",
+                        "Companyname": "Becon House",
+                        "Position": "1",
                         "StartDate": "Jan 01, 2010",
                         "EndDate": "Aug 31, 2014",
                         "Experience": "6 Month(s)"
                     },
                     {
-                        "CompnayCode": "50004876",
-                        "Companyname": "A. G. Habib & Co.",
-                        "Position": "Chartered Accountant",
+                        "CompnayCode": "Grade 1",
+                        "Companyname": "None",
+                        "Position": "1",
                         "StartDate": "Sep 01, 2014",
                         "EndDate": "",
                         "Experience": "6 Month(s)"
@@ -209,18 +209,18 @@
             "MainCategory": "Computer Systems",
             "TaxTarifCode": "1",
             "SupplierName": "Very Best Screens",
-            "WeightMeasure": "Accounts",
+            "WeightMeasure": "Registered On:",
             "WeightUnit": "KG",
             "Description": "Notebook Basic 17 with 2,80 GHz quad core, 17\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
-            "Name": "Sikander",
+            "Name": "Sikander Javed",
             "DateOfSale": "2017-04-17",
             "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1001.jpg",
             "Status": "Active",
             "Quantity": 20,
             "UoM": "PC",
             "CurrencyCode": "EUR",
-            "Price": "Gold",
-            "Width": "Aug 8, 2016",
+            "Price": "Grade 1",
+            "Width": "Aug 8, 2017",
             "Depth": 17,
             "Height": 3.1,
             "DimUnit": "cm",
@@ -353,7 +353,7 @@
                     "WeightMeasure": 4.5,
                     "WeightUnit": "KG",
                     "Description": "Notebook Basic 17 with 2,80 GHz quad core, 17\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
-                    "Name": "Sikander",
+                    "Name": "Sikander Javed",
                     "DateOfSale": "2017-04-17",
                     "Time": "23:30:22",
                     "ProductPicUrl": "test-resources/sap/ui/demokit/explored/img/HT-1001.jpg",
@@ -367,41 +367,26 @@
                     "Height": 3.1,
                     "DimUnit": "cm",
                     "Gender": "Male",
-                    "Address": "Gulshan",
-                    "Cell": "03001234567",
-                    "Email": "sikander@Ferguson.com",
-                    "MemberID": "20000321"
+                    "Address": "DHA, Islamabad",
+                    "Cell": "03007654321",
+                    "Email": "Javed.Butt@gmail.com",
+                    "StudentID": "20000321"
                 },
                 "Finance": {
-                    "ExamFee": "25,000 (Paid)",
-                    "RegistrationFee": "1,000 (Paid)",
-                    "Annual": "20,000 (Paid)"
+                    "ExamFee": "500 (Paid)",
+                    "RegistrationFee": "8,000 (Paid)",
+                    "Annual": "10,000 (Paid)"
                 },
                 "History": [
                     {
-                        "CompnayCode": "50006548",
-                        "Companyname": "Abbas Karjatwala & Co.",
-                        "Position": "Chief Financial Officer",
+                        "CompnayCode": "Play Group",
+                        "Companyname": "None",
+                        "Position": "1",
                         "StartDate": "Feb 02, 2011",
                         "EndDate": "Mar 31, 2012",
                         "Experience": "6 Month(s)"
-                    },
-                    {
-                        "CompnayCode": "50005289",
-                        "Companyname": "Baker Tilly Mehmood Idrees Qamar",
-                        "Position": "Chartered Accountant",
-                        "StartDate": "Apr 01,2012",
-                        "EndDate": "Dec 31, 2015",
-                        "Experience": "3  Year(s)"
-                    },
-                    {
-                        "CompnayCode": "50009291",
-                        "Companyname": "A. F. Ferguson & Co.",
-                        "Position": "Chartered Accountant",
-                        "StartDate": "Jan 01, 2016",
-                        "EndDate": "",
-                        "Experience": "1 Year(s)"
                     }
+     
                 ],
                 "Attachments": [
                     {

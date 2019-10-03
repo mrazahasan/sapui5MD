@@ -4,7 +4,7 @@
     xmlns:f="sap.ui.layout.form" 
     xmlns:form="sap.ui.layout.form" 
     xmlns="sap.m" controllerName="ffbl.training.view.detail">
-    <Page title="Member Detail">
+    <Page title="Student's Detail">
         <content>
             <ObjectHeader title="{selectedItem>/Name}" number="{selectedItem>/Price}">
                 <statuses>
@@ -22,13 +22,13 @@
                         <form:SimpleForm id   = "formLayoutId" title="Information">
                             <form:content>
 
-                                <Label text = "Member ID" />
-                                <Text  text = "{detailData>/Details/MemberID}" />
+                                <Label text = "Student ID" />
+                                <Text  text = "{detailData>/Details/StudentID}" />
                                 <Label text = "Name" />
                                 <Text  text = "{detailData>/Details/Name}" />
-                                <Label text = "Email" />
+                                <Label text = "Parent Email" />
                                 <Text  text = "{detailData>/Details/Email}" />
-                                <Label text = "Phone Number" />
+                                <Label text = "Parent Phone Number" />
                                 <Text  text = "{detailData>/Details/Cell}" />
                                 <Label text = "Address" />
                                 <Text  text = "{detailData>/Details/Address}" />
@@ -41,43 +41,39 @@
                     <IconTabFilter icon="sap-icon://lead">
                         <form:SimpleForm id   = "formLayoutIdFinance" title="Dues">
                             <form:content>
-                                <Label text = "Annual Membership Fee" />
+                                <Label text = "Registration Fees" />
                                 <Text  text = "{detailData>/Finance/Annual}" />
-                                <Label text = "Admission Fee" />
+                                <Label text = "Tution Fees" />
                                 <Text  text = "{detailData>/Finance/RegistrationFee}" />
-                                <Label text = "Annual Practice Fee" />
-                                <Text  text = "{detailData>/Finance/ExamFee}" />
+                                <Label text = "Exam Fees" />
+                                <Text  text = "{detailData>/Finance/ExamFee}" /> 
+                                <Button text="Challan Form" type="{= ${selectedItem>/Status} === 'Inactive' ? 'Accept' : 'Reject' }" />
                             </form:content>
                         </form:SimpleForm>
                     </IconTabFilter>
 
                     <IconTabFilter icon="sap-icon://work-history">
 
-                        <Table id="itemTable" items="{detailData>/History}" headerText="Employment History">
+                        <Table id="itemTable" items="{detailData>/History}" headerText="Educational History">
                             <columns>
                                 <Column hAlign="Left" demandPopin="true" minScreenWidth="Medium">
                                     <header>
-                                        <Label text="Company Code" width="100%"/>
+                                        <Label text="Grade" width="100%"/>
                                     </header>
                                 </Column>
                                 <Column hAlign="Left">
                                     <header>
-                                        <Label text="Company Name" width="100%"/>
+                                        <Label text="Previous School Name (If Any)" width="100%"/>
                                     </header>
                                 </Column>
                                 <Column hAlign="Left" demandPopin="true" minScreenWidth="Medium">
                                     <header>
-                                        <Label text="Position" width="100%"/>
+                                        <Label text="Attempts" width="100%"/>
                                     </header>
                                 </Column>
                                 <Column hAlign="Left" demandPopin="true" minScreenWidth="Medium">
                                     <header>
-                                        <Label text="Start Date" width="100%"/>
-                                    </header>
-                                </Column>
-                                <Column hAlign="Left" demandPopin="true" minScreenWidth="Medium">
-                                    <header>
-                                        <Label text="End Date" width="100%"/>
+                                        <Label text="Transcript" width="100%"/>
                                     </header>
                                 </Column>
                             </columns>
@@ -87,8 +83,7 @@
                                     <ObjectIdentifier title="{detailData>Companyname}"/>
 
                                     <Text text = "{detailData>Position}"/>
-                                    <Text text = "{detailData>StartDate}"/>
-                                    <Text text = "{detailData>EndDate}"/>
+                                     <Button text="Transcript" type="Accept" />
                                 </cells>
                             </ColumnListItem>
                         </Table>
@@ -105,7 +100,7 @@
         <footer>
             <Toolbar>
                 <ToolbarSpacer/>
-                <Button text="{= ${selectedItem>/Status} === 'Inactive' ? 'Activate' : 'Deactivate' }" type="{= ${selectedItem>/Status} === 'Inactive' ? 'Accept' : 'Reject' }" />
+                
             </Toolbar>
         </footer>
     </Page>
